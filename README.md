@@ -1,7 +1,7 @@
 # CodeAI-Tasks
 Task-3 Regression Model <br />
 ------------------------- <br />
-Model Informtation: <br />
+Model Information: <br />
 Features/Parameters Used : 13 <br />
 Model Type: Linear Regression <br />
 Accuracy Metrics: <br />
