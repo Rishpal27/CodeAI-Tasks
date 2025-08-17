@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd  
 
 # Define the Regression Model
-class Neuron:
+class LinearRegression:
     def __init__(self, lr=0.2, epochs=1000):
         self.lr = lr  # Learning rate for gradient descent
         self.epochs = epochs  # Number of training epochs/iterations
@@ -47,7 +47,7 @@ dataset.drop("instant", axis=1, inplace=True)
 #retrieving features and target variable  
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values  
-model = Neuron(lr=0.2, epochs=1000)  # Create Neuron model object
+model = LinearRegression(lr=0.2, epochs=1000)  # Create Regression model object
 model.fit(X, y)  # Training the model with the dataset
 
 print("------------------------------")  
